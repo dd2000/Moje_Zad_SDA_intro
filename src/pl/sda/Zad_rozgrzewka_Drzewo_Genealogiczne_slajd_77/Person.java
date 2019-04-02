@@ -34,7 +34,7 @@ public class Person {
 /*
 klasa definiuje rodzinę: ojciec, matka, dziecko
  */
-class Family {
+class Family {          // w jednym pliku *.java może być TYLKO JEDNA klasa PUBLIC
     private Person father; //ojciec
     private Person mother; //matka
     private Person child; //dziecko
