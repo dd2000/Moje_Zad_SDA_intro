@@ -24,6 +24,18 @@ public class Person {
     private String lastName; //nazwisko
     private int age; //wiek
 
+    // konstruktor: Person()
+    public Person(String firstName, String lastName, int age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+    }   // konstruktor: Person()
+
+    // getter: pobiera wiek osoby
+    public int getAge() {
+        return age;
+    }   // getAge()
+
     @Override
     public String toString() {
         return "Person{" + firstName +" "+ lastName + ", wiek:" + age + " }";
@@ -40,15 +52,61 @@ class Family {          // w jednym pliku *.java może być TYLKO JEDNA klasa PU
     private Person child; //dziecko
     private String familyName; // nazwa rodziny
 
+    // konstruktor (Person x3 + String) obiektów klasy Faamily
+    public Family(Person father,
+                  Person mother,
+                  Person child,
+                  String familyName) {
+        this.father = father;
+        this.mother = mother;
+        this.child = child;
+        this.familyName = familyName;
+    }   // konstruktor Family(...)
+
+
+    // konstruktor (String+int) obiektów klasy Faamily
+    public Family(String fatherFirstName,
+                  String fatherLastName,
+                  int fatherAge,
+                  String motherFirstName,
+                  String motherLastName,
+                  int motherAge,
+                  String childFirstName,
+                  String childLastName,
+                  int childAge,
+                  String familyName){
+        this.father = new Person(fatherFirstName, fatherLastName, fatherAge);
+        this.mother = new Person(motherFirstName,motherLastName,motherAge);
+        this.child = new Person(childFirstName,childLastName,childAge);
+        this.familyName = familyName;
+    }   // konstruktor Family(...)
+
+    // getter: pobiera nazwisko rodziny
+    public String getFamilyName() {
+        return familyName;
+    }   //  getFamilyName()
+
+    // 5 a. metoda, która zwróci opis całej rodziny jako String
     @Override
     public String toString() {
         return "Family{" +
-                "father=" + father +
-                ", mother=" + mother +
-                ", child=" + child +
-                ", familyName='" + familyName + '\'' +
+                "\nfather=" + father +
+                "\n mother=" + mother +
+                "\n child=" + child +
+                "\n familyName='" + familyName + '\'' +
                 '}';
     }   // Family.toString();
+
+    // 5 b. (*) metoda, która zwróci sumę lat wszystkich członków rodziny
+    public int sumFamilyAge(){
+        return (this.father.getAge()+this.mother.getAge()+this.child.getAge());
+    }   // sumFamilyAge()
+
+    // 5 c. (*) metoda, która zwróci średnią arytmetyczną wieku członków rodziny
+    // metoda: średni wiek
+    public double averageAge(){
+        return (sumFamilyAge()/3.0);
+    }   //  averageAge()
 
 
 }   // class Family
