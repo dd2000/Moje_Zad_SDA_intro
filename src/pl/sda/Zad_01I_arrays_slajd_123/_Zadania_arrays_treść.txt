@@ -1,0 +1,23 @@
+1. Napisz metodę, która jako parametr przyjmuje zmienną typu String[]
+   i wyświetla wszystkie elementy tablicy na konsoli (użyj różnych rodzajów pętli).
+2. Napisz metodę, która jako jedyny parametr przyjmuje zmienną typu int[]
+   i zwróci sumę wszystkich elementów tablicy.
+3. Napisz metodę, która jako parametr przyjmuje parametr int count
+   i w wyniku zwraca tablicę wypełnioną liczbami parzystymi zaczynając od 2,
+   tablica ma zawierać ilość liczb wskazanych przez parametr count.
+4. Napisz metodę, która jako parametr przyjmuje tablicę typu float[]
+   i w wyniku swojego działania powoduje podwojenie wartości dla każdego indeksu przekazanej tablicy.
+5. Napisz metodę, która jako parametr przyjmuje zmienną typu double[]
+   i wyświetla na konsoli: pierwszy, środkowy (jeden lub dwa środkowe) i ostatni element tablicy,
+   a także średnią arytmetyczną wszystkich liczb z tabeli.
+6. Napisz metodę, która jako parametr przyjmuje zmienną typu Car[]
+   (klasę Car powinieneś mieć utworzoną w ramach poprzednich zadań)
+   i zwróci tablicę z odwróconą kolejnością elementów.
+7. Przerób każdą z poprzednich metod (poza nr 3) tak, żeby przyjmowała parametry jako varargs.
+8. (*) Przerób metodę z zadania nr 2 tak, żeby metoda przyjmowała tablicę dwuwymiarową typu int[][]
+   i liczyła sumę z wszystkich tablic.
+9. (*) Napisz klasę, która pozwala tworzyć mapę gry w statki dla pojedynczego użytkownika.
+   Mapa powinna być tworzona na bazie dwuwymiarowej tablicy.
+   Zadbaj o metody pozwalające tworzyć statki na mapie,
+   a sam konstruktor klasy powinien pozwalać na utworzenie planszy o zadanych wymiarach.
+   Utwórz także przykład użycia.
