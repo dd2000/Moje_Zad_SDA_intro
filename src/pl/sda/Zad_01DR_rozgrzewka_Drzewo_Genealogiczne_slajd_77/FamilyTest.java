@@ -1,4 +1,4 @@
-package pl.sda.Zad_rozgrzewka_Drzewo_Genealogiczne_slajd_77;
+package pl.sda.Zad_01DR_rozgrzewka_Drzewo_Genealogiczne_slajd_77;
 /*
 6. W osobnej klasie FamilyTest tworzymy 2-3 rodziny i wypisujemy informacje o nich na ekran
 7. (*) Dodaj klasę, która będzie reprezentować małżeństwo.

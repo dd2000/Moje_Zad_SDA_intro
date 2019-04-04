@@ -1,0 +1,13 @@
+1. Napisz klasê, która wykorzysta wiêkszoœæ z metod dostêpnych w klasie String.
+2. Napisz metodê, która zwróci tekst: “Simon says: [{text}]”, gdzie {text} - to argument metody.
+U¿yj konkatenacji lub StringBuildera.
+3. Napisz metodê, która jako argument otrzyma jedn¹ zmienn¹ typu String, usunie z niej bia³e
+znaki z pocz¹tku i koñca tekstu oraz zamieni wszystkie litery na ma³e.
+4. Dodaj do klas reprezentuj¹cych osobê i rodzinê utworzonych w zadaniu na pocz¹tku zajêæ
+metody toString(), które w czytelny sposób wyœwietl¹ informacje o obiekcie.
+5. Napisz metodê, która jako argumenty bêdzie przyjmowaæ dwie zmienne typu String i zwróci
+true je¿eli oba teksty zaczynaj¹ siê od tego samego znaku.
+6. Napisz metodê, która jako argumenty bêdzie przyjmowaæ dwie zmienne typu String i zwróci
+true je¿eli 3 ostatnie znaki w obu tekstach s¹ takie same.
+7. * W ramach zadania nr 4 u¿yj StringBuildera do tworzenia wersji tekstowej obiektów.
+8. * Napisz metodê sprawdzaj¹c¹, czy dany ³añcuch zawiera co najmniej trzy razy s³owo “nie”.

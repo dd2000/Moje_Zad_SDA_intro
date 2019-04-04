@@ -1,4 +1,4 @@
-package pl.sda.Zad_rozgrzewka_Drzewo_Genealogiczne_slajd_77;
+package pl.sda.Zad_01DR_rozgrzewka_Drzewo_Genealogiczne_slajd_77;
 
 /*
 1. Tworzymy model danych dla drzewa genealogicznego

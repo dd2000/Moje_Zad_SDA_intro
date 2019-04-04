@@ -1,0 +1,16 @@
+1. Umieœæ klasy które utworzy³eœ do tej pory w swoim projekcie w osobnych pakietach tak ¿eby rozgraniczyæ
+poszczególne bloki / zagadnienia nauki programowania
+2. Dodaj do klas utworzonych w zadaniu na pocz¹tku zajêæ (drzewo genealogiczne) odpowiednie modyfikatory
+dostêpu na poziomie pól, konstruktorów i metod.
+3. W repozytorium kodu, w pakiecie encapsulation znajduje siê kolejny pakiet nazwany task, gdzie jest kilka klas,
+które nale¿y uporz¹dkowaæ i stworzyæ dla nich odpowiednie pakiety. To Twoje zadanie. Dzia³aj wy³¹cznie w
+obrêbie pakietu task.
+4. * W klasach, które w³aœnie zosta³y uporz¹dkowane ktoœ pope³ni³ b³êdy i nie zadba³ o prawid³ow¹ hermetyzacjê
+danych oraz modyfikatory dostêpu. Przejrzyj klasy i postaraj siê by kod by³ zgodny z tym co by³o powiedziane na
+zajêciach - przeprojektuj klasy by spe³nia³y zasady hermetyzacji, a przy tym udostêpnia³y do "œwiata
+zewnêtrznego" tylko potrzebne API. Zadbaj o prawid³owe u¿ycie danych, dodaj konstruktory gdzie trzeba.
+Utwórz przyk³ady u¿ycia (tworzenie produktów i u¿ytkowników) w klasie OnlineShop. SprawdŸ, czy Twój kod jest
+odporny na b³êdy.
+5. * Utwórz klasê koszyka, która umo¿liwi robienie zakupów: u¿ytkownik dodaje wybrane przedmioty w zadanej iloœci
+do swojego koszyka, a nastêpnie dokonuje zakupu. Wykonywane operacje powinny byæ wyœwietlane na konsoli.
+Zadbaj o odpowiedni¹ hermetyzacjê swojego API oraz w³aœciwe modyfikatory dostêpu.

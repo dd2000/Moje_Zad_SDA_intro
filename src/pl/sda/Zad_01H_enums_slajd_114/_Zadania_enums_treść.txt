@@ -1,0 +1,18 @@
+1. Utwórz enum Currency, który ma reprezentować walutę.
+   Ograniczmy się do 5 walut: polski złoty, dolar, euro, jen, funt brytyjski.
+2. Utwórz enum Operation, dla którego występować będą wartości: PLUS, MINUS, MULTIPLY, DIVIDE.
+3. Do enum Currency dodaj pole oznaczające symbol waluty: "PLN", "USD" itp.,
+   a do Operation reprezentację tekstową: "+", "-" itp
+4. Dodaj do enum Operation metodę calculate(double a, double b),
+   która dla dwóch podanych liczb wykona odpowiednią operację matematyczną
+   oraz wyświetli jej wywołanie w "ładny" sposób na konsoli.
+   Zadbaj o przykład użycia i wykonanie kilku operacji matematycznych.
+5. Do enum Currency dodaj pole oznaczające kurs waluty (w stosunku do polskiego złotego)
+   oraz metodę, która wyliczy wartość podanej kwoty w obcej walucie (np.: 100 PLN ~ 23 EUR).
+6. (*) Zadbaj by można było na bazie reprezentacji tekstowej ("PLN", "+" itp)
+   znaleźć odpowiednią wartość enum Currency i Operation.
+7. (*) Utwórz klasę Money zawierającą dwa pola: currency i value.
+   Nadpisz metodę do tworzenia wartości tekstowej (toString()) tak,
+   żeby wyświetlała wartość z symbolem waluty, np. 40 EURO.
+   Dodaj metodę exchange(Currency currency),
+   która zwróci nowy obiekt Money w nowej walucie dla aktualnej wartości.

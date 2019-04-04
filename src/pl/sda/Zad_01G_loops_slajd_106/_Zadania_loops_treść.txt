@@ -1,0 +1,16 @@
+1. Napisz metodê, która wyœwietli na ekranie n-pierwszych liczb parzystych. Zmienna n to parametr metody. Czyli np. dla n = 4 program
+powinien wypisaæ: 2, 4, 6, 8
+2. Napisz metodê, która policzy n-t¹ potêgê (n >= 0) liczby ca³kowitej a. Parametry metody to: n i a.
+3. Wypisz na ekran co drug¹, du¿¹ literê alfabetu ³aciñskiego, zaczynaj¹c od 'A' i koñcz¹c na 'Z'. U¿yj pêtli for, a potem spróbuj przerobiæ
+program u¿ywaj¹c pêtli while.
+4. Napisz metodê która sprawdzi czy dwa podane Stringi (zmienne typu String) s¹ takie same - bez u¿ycia metody equals().
+PodpowiedŸ: mo¿esz porównaæ oba teksty znak po znaku u¿ywaj¹c jednej z metod klasy String.
+5. Napisz metodê sprawdzaj¹c¹ iloœæ wyst¹pieñ frazy: phrase w tekœcie: text. Parametry metody to: phrase i text.
+PodpowiedŸ: u¿yj metody klasy String która sprawdza index dla podanej frazy
+6. Zmieñ metodê pl.sda.loops.ForLoop.sumNumbersFromUser() tak by przyjmowa³a liczby typu float. W podsumowaniu oprócz sumy
+wypisz tak¿e œredni¹ arytmetyczn¹ podanych liczb.
+7. * Napisz metodê która wyœwietli na ekranie prostok¹t o podanych rozmiarach: width i height (to s¹ parametry metody).
+PodpowiedŸ: zobacz metodê: pl.sda.loops.ForLoop.leftTriangle()
+8. * Utwórz program który bêdzie pobiera³ od u¿ytkownika liczby typu float a¿ do momentu osi¹gniêcia limitu podanego jako parametr
+metody. Na koniec wypisz ile by³o tych liczb, jaka by³a ich suma (z czêœci¹ u³amkow¹) i jaka jest ich œrednia arytmetyczna.
+9. * Napisz metodê sprawdzaj¹c¹, czy dany ³añcuch znaków jest palindromem.
