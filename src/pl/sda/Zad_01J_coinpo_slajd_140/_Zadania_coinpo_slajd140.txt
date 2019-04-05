@@ -1,7 +1,7 @@
 1. Rozwiń przykład kompozycji w oparciu o klasę Car
    - dodaj klasę Entertainment, która zarządzać będzie systemem rozrywki w Twoim samochodzie,
-   a następnie zadbaj o to,
-   by tworząc obiekt typu Car konieczne było podanie obiektu typu Entertainment.
+   a następnie zadbaj o to, by tworząc obiekt typu Car
+   konieczne było podanie obiektu typu Entertainment.
    Klasa Car powinna wykorzystywać metody dostępne w klasie Entertainment.
 2. Utwórz klasę Tool, która będzie reprezentować narzędzia do kupienia w sklepie.
    Każde narzędzie powinno mieć swój model i cenę.
