@@ -1,16 +1,20 @@
-1. Umieœæ klasy które utworzy³eœ do tej pory w swoim projekcie w osobnych pakietach tak ¿eby rozgraniczyæ
-poszczególne bloki / zagadnienia nauki programowania
-2. Dodaj do klas utworzonych w zadaniu na pocz¹tku zajêæ (drzewo genealogiczne) odpowiednie modyfikatory
-dostêpu na poziomie pól, konstruktorów i metod.
-3. W repozytorium kodu, w pakiecie encapsulation znajduje siê kolejny pakiet nazwany task, gdzie jest kilka klas,
-które nale¿y uporz¹dkowaæ i stworzyæ dla nich odpowiednie pakiety. To Twoje zadanie. Dzia³aj wy³¹cznie w
-obrêbie pakietu task.
-4. * W klasach, które w³aœnie zosta³y uporz¹dkowane ktoœ pope³ni³ b³êdy i nie zadba³ o prawid³ow¹ hermetyzacjê
-danych oraz modyfikatory dostêpu. Przejrzyj klasy i postaraj siê by kod by³ zgodny z tym co by³o powiedziane na
-zajêciach - przeprojektuj klasy by spe³nia³y zasady hermetyzacji, a przy tym udostêpnia³y do "œwiata
-zewnêtrznego" tylko potrzebne API. Zadbaj o prawid³owe u¿ycie danych, dodaj konstruktory gdzie trzeba.
-Utwórz przyk³ady u¿ycia (tworzenie produktów i u¿ytkowników) w klasie OnlineShop. SprawdŸ, czy Twój kod jest
-odporny na b³êdy.
-5. * Utwórz klasê koszyka, która umo¿liwi robienie zakupów: u¿ytkownik dodaje wybrane przedmioty w zadanej iloœci
-do swojego koszyka, a nastêpnie dokonuje zakupu. Wykonywane operacje powinny byæ wyœwietlane na konsoli.
-Zadbaj o odpowiedni¹ hermetyzacjê swojego API oraz w³aœciwe modyfikatory dostêpu.
+1. UmieÅ›Ä‡ klasy ktÃ³re utworzyÅ‚eÅ› do tej pory w swoim projekcie w osobnych pakietach tak,
+   Å¼eby rozgraniczyÄ‡ poszczegÃ³lne bloki / zagadnienia nauki programowania
+2. Dodaj do klas utworzonych w zadaniu na poczÄ…tku zajÄ™Ä‡ (drzewo genealogiczne)
+   odpowiednie modyfikatory dostÄ™pu na poziomie pÃ³l, konstruktorÃ³w i metod.
+3. W repozytorium kodu, w pakiecie encapsulation znajduje siÄ™ kolejny pakiet nazwany task,
+   gdzie jest kilka klas, ktÃ³re naleÅ¼y uporzÄ…dkowaÄ‡ i stworzyÄ‡ dla nich odpowiednie pakiety.
+   To Twoje zadanie. DziaÅ‚aj wyÅ‚Ä…cznie w obrÄ™bie pakietu task.
+4. (*) W klasach, ktÃ³re wÅ‚aÅ›nie zostaÅ‚y uporzÄ…dkowane ktoÅ› popeÅ‚niÅ‚ bÅ‚Ä™dy i nie zadbaÅ‚
+   o prawidÅ‚owÄ… hermetyzacjÄ™ danych oraz modyfikatory dostÄ™pu.
+   Przejrzyj klasy i postaraj siÄ™ by kod byÅ‚ zgodny z tym co byÅ‚o powiedziane na zajÄ™ciach
+   - przeprojektuj klasy by speÅ‚niaÅ‚y zasady hermetyzacji, a przy tym udostÄ™pniaÅ‚y
+   do "Å›wiata zewnÄ™trznego" tylko potrzebne API.
+   Zadbaj o prawidÅ‚owe uÅ¼ycie danych, dodaj konstruktory gdzie trzeba.
+   UtwÃ³rz przykÅ‚ady uÅ¼ycia (tworzenie produktÃ³w i uÅ¼ytkownikÃ³w) w klasie OnlineShop.
+   SprawdÅº, czy TwÃ³j kod jest odporny na bÅ‚Ä™dy.
+5. (*) UtwÃ³rz klasÄ™ koszyka, ktÃ³ra umoÅ¼liwi robienie zakupÃ³w:
+   uÅ¼ytkownik dodaje wybrane przedmioty w zadanej iloÅ›ci do swojego koszyka,
+   a nastÄ™pnie dokonuje zakupu.
+   Wykonywane operacje powinny byÄ‡ wyÅ›wietlane na konsoli.
+   Zadbaj o odpowiedniÄ… hermetyzacjÄ™ swojego API oraz wÅ‚aÅ›ciwe modyfikatory dostÄ™pu.
