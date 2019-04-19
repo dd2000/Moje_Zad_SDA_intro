@@ -21,7 +21,7 @@ public class Arrays8Test {
 
     // metoda sumująca elementy tablicy intów
     public static void sumaInt2(int[][] tab){
-        int suma = 0, elementy=0; // zmienna pomocnicza
+        int suma = 0, elementy=0; // zmienne pomocnicze
         int wiersze=tab.length;
 
         for (int[] wiersz:
