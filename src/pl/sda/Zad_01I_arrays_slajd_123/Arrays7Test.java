@@ -1,11 +1,12 @@
 package pl.sda.Zad_01I_arrays_slajd_123;
-import java.*;
 /*
 7. Przerób każdą z poprzednich metod (poza nr 3) tak, żeby przyjmowała parametry jako varargs.
  */
 public class Arrays7Test {
     public static void main(String[] args) {
-        writeNames("Ala", "Ola", "Basia", "Kasia", "Stasia");
+        // test 1. varargs
+        writeNames("Ala","Ola","Kasia","Basia","Jasia");
+
     }  // main()
 
     // 1. varargs
