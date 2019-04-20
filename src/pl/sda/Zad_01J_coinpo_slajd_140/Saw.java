@@ -7,6 +7,8 @@ import pl.sda.Zad_01J_coinpo_slajd_140.Tool;
    Klasa Hammer powinna mieć dodatkowe pole z wagą młotka,
    a klasa Saw z długością piły.
    Utwórz klasę ToolsShop, w której utwórz kilka narzędzi i wyświetl ich ceny.
+3. Dodaj do klasy Tool metodę która zwraca opis narzędzia (model + cena).(zrobione w klasie nadrzędnej Tool)
+   Dodatkowo klasy Hammer i Saw powinny rozszerzać opis() o swoje unikatowe cechy.
  */
 public class Saw extends Tool {  // Hammer rozszerza klasę Tool
     private double size;
@@ -30,4 +32,8 @@ public class Saw extends Tool {  // Hammer rozszerza klasę Tool
                 " size=" + getSize() +
                 '}';
     }
+
+    public void opis(){
+        System.out.println("Tool: model="+getModel()+" długość="+getSize()+ " cena="+getPrice());
+    } // metoda opis nadpisuje metodę opis z klasy nadrzędnej Tool
 } // class Saw
