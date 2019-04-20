@@ -35,7 +35,7 @@ public class Arrays9Test {
         cls();// System.console();
 
         plansza();
-        //Runtime.getRuntime().exec("cmd ", "/c", " cls");
+        //Runtime.getRuntime().exec("cmd /? cls");
 
     } // main();
 
@@ -43,8 +43,9 @@ public class Arrays9Test {
     public static void plansza(){
         cls();   // \u9580 to trafiony punkt czyli X
 
+        System.out.println();
         System.out.println("    "+" 1 "+" "+" 2 "+" "+" 3 "+" "+" 4 "+" "+" 5 "+" "+" 6 "+" "+" 7 "+" "+" 8 "+" "+" 9 "+" "+" 10");
-
+        // znaki ramek dla UTF-8
         System.out.println("   "+"╔"+"═══"+((char) 9572)+"═══"+((char) 9572)+"═══"+((char) 9572)+"═══"+((char) 9572)+"═══"+((char) 9572)+"═══"+((char) 9572)+"═══"+((char) 9572)+"═══"+((char) 9572)+"═══"+((char) 9572)+"═══"+((char) 9559));
         System.out.println(" A "+((char) 9553)+"   "+((char) 9474)+"   "+((char) 9474)+"   "+((char) 9474)+"   "+((char) 9474)+"   "+((char) 9474)+"   "+((char) 9474)+"   "+((char) 9474)+"   "+((char) 9474)+"   "+((char) 9474)+"   "+((char) 9553)+" A"  );
         System.out.println("   "+((char) 9567)+"---"+((char) 9532)+"---"+((char) 9532)+"---"+((char) 9532)+"---"+((char) 9532)+"---"+((char) 9532)+"---"+((char) 9532)+"---"+((char) 9532)+"---"+((char) 9532)+"---"+((char) 9532)+"---"+((char) 9553)  );
