@@ -1,4 +1,4 @@
-package pl.sda.Zad_01F_strings_slajd_98.Zad_1;
+package pl.sda.Zad_01F_strings_slajd_98.Zad_01F_1;
 /*
 1. Napisz klasę, która wykorzysta większość z metod dostępnych w klasie String.
  */
