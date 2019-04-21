@@ -16,7 +16,7 @@ public class CheckLast3CharsTest {
     public static boolean checkLast3Chars(String st1, String st2){
         System.out.println(st1+" <-oraz-> "+st2);
         if (!st1.substring(st1.length()-3).equals(st2.substring(st2.length()-3))) System.out.print("NIE ");
-        System.out.println("kończą się tymi samymi trzema znakami.!");
+        System.out.println("kończą się tymi samymi trzema znakami!");
         return (st1.substring(st1.length()-3).equals(st2.substring(st2.length()-3)));
     }  // metoda: checkLast3Chars()
 } // class CheckLast3CharsTest
