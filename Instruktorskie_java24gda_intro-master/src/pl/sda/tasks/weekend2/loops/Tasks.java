@@ -156,7 +156,7 @@ public class Tasks {
     }
 
     /**
-     * 6. Zmień metodę pl.sda.loops.ForLoop.sumNumbersFromUser() tak by przyjmowała liczby typu float.
+     * 6. Zmień metodę pl.sda.loops.ForLoopTest_DialogBoxPane.sumNumbersFromUser() tak by przyjmowała liczby typu float.
      * W podsumowaniu oprócz sumy wypisz także średnią arytmetyczną podanych liczb.
      */
     private static void sumNumbersFromUser(int numbersSize) {
@@ -174,7 +174,7 @@ public class Tasks {
 
     /**
      * 7. Napisz metodę która wyświetli na ekranie prostokąt o podanych rozmiarach: width i height (to są parametry metody).
-     * Podpowiedź: zobacz metodę: pl.sda.loops.ForLoop.leftTriangle()
+     * Podpowiedź: zobacz metodę: pl.sda.loops.ForLoopTest_DialogBoxPane.leftTriangle()
      */
     private static void rectangle(int width, int height) {
         for (int i = 0; i < height; i++) {
