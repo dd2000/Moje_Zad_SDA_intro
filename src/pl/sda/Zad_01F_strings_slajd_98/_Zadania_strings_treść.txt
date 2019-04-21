@@ -11,3 +11,5 @@
    i zwróci true je¿eli 3 ostatnie znaki w obu tekstach s¹ takie same.
 7. (*) W ramach zadania nr 4 u¿yj StringBuildera do tworzenia wersji tekstowej obiektów.
 8. (*) Napisz metodê sprawdzaj¹c¹, czy dany ³añcuch zawiera co najmniej trzy razy s³owo “nie”.
+
+
