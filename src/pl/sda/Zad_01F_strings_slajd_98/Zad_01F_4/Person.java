@@ -36,6 +36,16 @@ public class Person {
         return age;
     }   // getAge()
 
+    // getter: pobiera imie osoby
+    public String getFirstName() {
+        return firstName;
+    }
+
+    // getter: pobiera nazwisko osoby
+    public String getLastName() {
+        return lastName;
+    }
+
     @Override
     public String toString() {
         return "Person{" + firstName +" "+ lastName + ", wiek:" + age + " }";
