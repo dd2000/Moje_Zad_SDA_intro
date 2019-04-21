@@ -26,6 +26,8 @@ public class FamilyTest {   // testowanie klas pliku Person.java
         System.out.printf("\n          razem lat: "+family2.sumFamilyAge()+" średni wiek: "+family2.averageAge());
         System.out.printf("\n\nRodzina_3: "+family3.getFamilyName()+"  "+family3.toString());
         System.out.printf("\n          razem lat: "+family3.sumFamilyAge()+" średni wiek: "+family3.averageAge());
-
+        Marriage para1 = new Marriage(new Person("Alojzy","Piontek",54),
+                                      new Person("Matylda","Kopczyk",37),"01 kwietnia 2012 r");
+        System.out.println(para1.toString());
     }   //  main()
 }   // class FamilyTest

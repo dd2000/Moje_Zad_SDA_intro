@@ -89,12 +89,12 @@ class Family {          // w jednym pliku *.java może być TYLKO JEDNA klasa PU
     // 5 a. metoda, która zwróci opis całej rodziny jako String
     @Override
     public String toString() {
-        return "Family{" +
+        return "Family:" +
+                "familyName='" + familyName + '\'' +
                 "\nfather=" + father +
                 "\n mother=" + mother +
                 "\n child=" + child +
-                "\n familyName='" + familyName + '\'' +
-                '}';
+                ';';
     }   // Family.toString();
 
     // 5 b. (*) metoda, która zwróci sumę lat wszystkich członków rodziny
@@ -119,4 +119,19 @@ class Marriage {
     private Person wife; //żona
     private String weedingData; //data ślubu
 
+    // konstruktor
+    public Marriage(Person husband, Person wife, String weedingData) {
+        this.husband = husband;
+        this.wife = wife;
+        this.weedingData = weedingData;
+    } // konstruktor
+
+    @Override
+    public String toString() {
+        return "Marriage{" +
+                "\nhusband=" + husband +
+                "\n wife=" + wife +
+                "\n weedingData='" + weedingData +
+                "\n}";
+    }
 }   // class Family
