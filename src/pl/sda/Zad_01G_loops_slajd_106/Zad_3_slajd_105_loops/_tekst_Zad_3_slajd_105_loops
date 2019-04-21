@@ -1,0 +1,4 @@
+3. Wypisz na ekran co drugą, dużą literę alfabetu łacińskiego,
+   zaczynając od 'A' i kończąc na 'Z'.
+   Użyj pętli for, a potem spróbuj przerobić program używając pętli while.
+

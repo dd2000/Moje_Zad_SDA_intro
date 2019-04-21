@@ -1,0 +1,4 @@
+4. Napisz metodę która sprawdzi, czy dwa podane Stringi (zmienne typu String) są takie same
+   - bez użycia metody equals().
+   (?) Podpowiedź: możesz porównać oba teksty znak po znaku używając jednej z metod klasy String.
+

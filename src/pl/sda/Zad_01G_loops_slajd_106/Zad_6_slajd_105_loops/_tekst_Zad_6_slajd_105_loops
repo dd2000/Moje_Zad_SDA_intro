@@ -1,0 +1,4 @@
+6. Zmień metodę pl.sda.loops.ForLoop.sumNumbersFromUser() tak,
+   by przyjmowała liczby typu float.
+   W podsumowaniu oprócz sumy wypisz także średnią arytmetyczną podanych liczb.
+

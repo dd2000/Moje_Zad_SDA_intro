@@ -1,0 +1,4 @@
+7. (*) Napisz metodę która wyświetli na ekranie prostokąt
+   o podanych rozmiarach: width i height (to są parametry metody).
+   (?)Podpowiedź: zobacz metodę: pl.sda.loops.ForLoop.leftTriangle()
+

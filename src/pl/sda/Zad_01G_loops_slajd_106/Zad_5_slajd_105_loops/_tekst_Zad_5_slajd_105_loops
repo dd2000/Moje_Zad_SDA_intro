@@ -1,0 +1,4 @@
+5. Napisz metodę sprawdzającą ilość wystąpień frazy: phrase w tekście: text.
+   Parametry metody to: phrase i text.
+   (?) Podpowiedź: użyj metody klasy String, która sprawdza index dla podanej frazy.
+
