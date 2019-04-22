@@ -30,6 +30,7 @@ public class Food6Test {
         System.out.println(chicken.describe());
 
         // przepisy/zestawy
+        // konstruktor a)
         Recipe obiad1 = new Recipe("Zestaw obiadowy", karkowka,frytki,carrot,dorsz);
         System.out.println("\nDodaję sałatę do obiad1:");
         obiad1.addIngredientToRecipe(salad);
@@ -37,5 +38,24 @@ public class Food6Test {
         obiad1.printIngredients();
         System.out.println("\nDrukuję opis obiad1:");
         obiad1.decribe();
+        // konstruktor b)
+        Recipe przystawki = new Recipe("Przystawki obiadowe",4);
+        System.out.println("\nDodaję sałatę do przystawek:");
+        przystawki.addIngredientToRecipe(salad);
+        System.out.println("\nDodaję marchewkę do przystawek:");
+        przystawki.addIngredientToRecipe(carrot);
+        System.out.println("\nDodaję ziemniaki do przystawek:");
+        przystawki.addIngredientToRecipe(ziemniak);
+        System.out.println("\nDodaję frytki do przystawek:");
+        przystawki.addIngredientToRecipe(frytki);
+        System.out.println("\nDodaję dorsza do przystawek:"); // przekracza ingredientsCount
+        przystawki.addIngredientToRecipe(dorsz);
+
+        System.out.println("\nWypisuję składniki przystawki:");
+        przystawki.printIngredients();
+        System.out.println("\nDrukuję opis przystawki:");
+        przystawki.decribe();
+
+
     } // main();
 } // class Food6Test

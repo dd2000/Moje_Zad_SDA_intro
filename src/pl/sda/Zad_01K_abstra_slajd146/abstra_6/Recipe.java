@@ -47,11 +47,15 @@ public class Recipe {
         return this;
     } // addIngredientToRecipe()
 
+    //getter
+    public Food[] getIngredients() {
+        return ingredients;
+    }
 
     // metoda wypisuje składniki przepisu
     public void printIngredients() {
         System.out.println("\nIngredients(składniki) w "+name+" to: ");
-        for (Food ingredient : ingredients) {
+        for (Food ingredient : getIngredients()) {
             System.out.print(ingredient.getName() + ", ");
         }
         System.out.println();
@@ -60,8 +64,8 @@ public class Recipe {
     // metoda wyświetla opis składników przepisu
     public void decribe() {
         System.out.println("\nDescripion (opis) składników przepisu: "+name+":\n");
-        for (Food ingredient : ingredients) {
-            ingredient.describe();
+        for (Food ingredient : getIngredients()) {
+            System.out.println(ingredient.describe());
         }
     } // decribe()
 
