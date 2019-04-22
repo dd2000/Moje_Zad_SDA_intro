@@ -1,0 +1,3 @@
+4. W klasie Food dodaj pole name i zwykłą metodę (gettera) do pobierania nazwy.
+   Stwórz konstruktor, który będzie ustawiał pole name.
+   Stwórz odpowiednie konstruktory w klasach pochodnych.
