@@ -1,0 +1,20 @@
+1. Utwórz interfejs Animal oraz dodaj do niego sygnatury metod: getName() i speak().
+2. Utwórz kilka różnych implementacji interfejsu Animal po jednym dla: ptaków, ssaków, ryb, gadów, owadów.
+3. Utwórz kolejne interfejsy:
+    a. Flyable z sygnaturą metody fly()
+    b. Swimmable z sygnaturą metody swim()
+4. Dodaj do klas zwierząt implementacje odpowiednich interfejsów:
+    a. dla ryb i gadów Swimmable,
+    b. dla ptaków i owadów: Flyable
+5. Utwórz nowy interfejs Being i dodaj do niego:
+    a. sygnaturę metody getAge()
+    b. pole MAX_AGE = 100
+    c. metodę domyślną: isAlive() - która zwróci true jeżeli wiek istoty jest mniejszy od MAX_AGE.
+6. Dodaj do interfejsu Animal dziedziczenie z interfejsu Being
+7. Nadpisz w jednej z klas zwierząt metodę isAlive()
+8. Stwórz obiekty dla każdego zwierzęcia i wyświetl informacje o nich (nazwę, wiek, mowę, czy żyją?)
+9. (*) Utwórz interfejs Plant, który będzie dziedziczył po Being i nadpisze metodę isAlive() tak,
+   żeby limit wieku był równy 1000 lat.
+   Dodaj kilka klas implementujących interfejs Plant.
+10. (*) Utwórz klasę Swimmingpool w konstruktorze pobierz listę obiektów typu Swimmable i dodaj metodę,
+   która sprawi, że wszystkie zwierzęta będą pływać.
