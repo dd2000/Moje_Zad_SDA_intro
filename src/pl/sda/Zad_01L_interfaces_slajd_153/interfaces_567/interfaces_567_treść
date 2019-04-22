@@ -2,3 +2,5 @@
     a. sygnaturę metody getAge()
     b. pole MAX_AGE = 100
     c. metodę domyślną: isAlive() - która zwróci true jeżeli wiek istoty jest mniejszy od MAX_AGE.
+6. Dodaj do interfejsu Animal dziedziczenie z interfejsu Being
+7. Nadpisz w jednej z klas zwierząt metodę isAlive()
