@@ -1,4 +1,4 @@
-package pl.sda.Zad_01K_abstra_slajd146.abstra_6;
+package pl.sda.Zad_01K_abstra_slajd146.abstra_678;
 /*
 6. (*) Stwórz klasę Recipe ['przepis'], która zawierać będzie
    nazwę i spis składników ['ingredients'] (obiektów klasy Food).

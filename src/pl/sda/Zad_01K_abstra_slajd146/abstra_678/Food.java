@@ -1,4 +1,4 @@
-package pl.sda.Zad_01K_abstra_slajd146.abstra_6;
+package pl.sda.Zad_01K_abstra_slajd146.abstra_678;
 
 /*
 1. Utwórz klasę abstrakcyjną o nazwie Food i dodaj do niej metodę abstrakcyjną getTaste(),

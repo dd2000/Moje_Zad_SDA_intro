@@ -13,4 +13,4 @@ public class Food5Test {
         System.out.println(carrot.describe());
         System.out.println(chicken.describe());
     } // main();
-} // class Food6Test
+} // class Food_678_Test

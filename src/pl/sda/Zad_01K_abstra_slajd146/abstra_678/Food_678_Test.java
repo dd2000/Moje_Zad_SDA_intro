@@ -1,10 +1,10 @@
-package pl.sda.Zad_01K_abstra_slajd146.abstra_6;
+package pl.sda.Zad_01K_abstra_slajd146.abstra_678;
 /*
 dodano inne klasy i obiekty Food
 dwiema metodami utworzono przepisy (Recipes)
 
  */
-public class Food6Test {
+public class Food_678_Test {
 
     public static void main(String[] args) {
         System.out.println();
@@ -58,4 +58,4 @@ public class Food6Test {
 
 
     } // main();
-} // class Food6Test
+} // class Food_678_Test

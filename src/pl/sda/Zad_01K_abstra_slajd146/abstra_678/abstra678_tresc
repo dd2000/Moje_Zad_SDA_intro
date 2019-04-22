@@ -3,3 +3,6 @@
    Dodaj konstruktor który ustawi nazwę przepisu i wszystkie składniki(jako varargs)
    i drugi który ustawi nazwę przepisu i ilość składników (jako liczbę).
    Dodaj metodę do dodawania składników do listy.
+7. (*) W klasie Recipe stwórz metody do wyświetlania wszystkich składników (same nazwy)
+   oraz metodę do wyświetlania opisu potrawy składającego się z opisu poszczególnych składników.
+8. (*) Dodaj własne klasy-składniki tak by stworzyć swój ulubiony przepis kulinarny :).

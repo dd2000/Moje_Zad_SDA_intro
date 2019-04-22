@@ -1,4 +1,4 @@
-package pl.sda.Zad_01K_abstra_slajd146.abstra_6;
+package pl.sda.Zad_01K_abstra_slajd146.abstra_678;
 
 /*
 3. Dodaj do klasy Food metodę abstrakcyjną getType(),
