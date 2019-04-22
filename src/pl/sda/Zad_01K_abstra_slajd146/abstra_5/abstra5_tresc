@@ -1,0 +1,3 @@
+5. W klasie Food dodaj metodę describe(), która wypisze na ekran informacje o nazwie, typie i smaku jedzenia.
+   Sprawdź swój kod, stwórz po jednym obiekcie z każdej klasy: Chicken, Ham, Carrot, Salad
+   i wyświetl na ekran ich opis [ klasa FoodTest ].
