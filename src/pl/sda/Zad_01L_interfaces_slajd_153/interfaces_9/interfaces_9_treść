@@ -1,0 +1,3 @@
+9. (*) Utwórz interfejs Plant, który będzie dziedziczył po Being i nadpisze metodę isAlive() tak,
+   żeby limit wieku był równy 1000 lat.
+   Dodaj kilka klas implementujących interfejs Plant.

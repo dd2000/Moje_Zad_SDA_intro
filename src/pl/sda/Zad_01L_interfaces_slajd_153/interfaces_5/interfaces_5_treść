@@ -1,0 +1,4 @@
+5. Utwórz nowy interfejs Being i dodaj do niego:
+    a. sygnaturę metody getAge()
+    b. pole MAX_AGE = 100
+    c. metodę domyślną: isAlive() - która zwróci true jeżeli wiek istoty jest mniejszy od MAX_AGE.

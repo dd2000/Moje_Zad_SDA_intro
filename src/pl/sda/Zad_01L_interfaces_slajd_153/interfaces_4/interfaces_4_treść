@@ -1,0 +1,3 @@
+4. Dodaj do klas zwierząt implementacje odpowiednich interfejsów:
+    a. dla ryb i gadów Swimmable,
+    b. dla ptaków i owadów: Flyable

@@ -1,0 +1,2 @@
+10. (*) Utwórz klasę Swimmingpool w konstruktorze pobierz listę obiektów typu Swimmable i dodaj metodę,
+   która sprawi, że wszystkie zwierzęta będą pływać.
