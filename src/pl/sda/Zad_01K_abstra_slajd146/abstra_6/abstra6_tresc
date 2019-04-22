@@ -1,0 +1,5 @@
+6. (*) Stwórz klasę Recipe ['przepis'], która zawierać będzie
+   nazwę i spis składników ['ingredients'] (obiektów klasy Food).
+   Dodaj konstruktor który ustawi nazwę przepisu i wszystkie składniki(jako varargs)
+   i drugi który ustawi nazwę przepisu i ilość składników (jako liczbę).
+   Dodaj metodę do dodawania składników do listy.

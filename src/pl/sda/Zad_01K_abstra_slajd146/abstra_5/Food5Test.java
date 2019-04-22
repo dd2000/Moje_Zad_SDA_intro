@@ -1,6 +1,6 @@
 package pl.sda.Zad_01K_abstra_slajd146.abstra_5;
 
-public class FoodTest {
+public class Food5Test {
 
     public static void main(String[] args) {
         System.out.println();
@@ -13,4 +13,4 @@ public class FoodTest {
         System.out.println(carrot.describe());
         System.out.println(chicken.describe());
     } // main();
-} // class FoodTest
+} // class Food6Test
