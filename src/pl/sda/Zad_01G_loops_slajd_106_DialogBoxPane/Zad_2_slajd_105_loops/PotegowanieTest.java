@@ -1,4 +1,4 @@
-package pl.sda.Zad_01G_loops_slajd_106.Zad_2_slajd_105_loops;
+package pl.sda.Zad_01G_loops_slajd_106_DialogBoxPane.Zad_2_slajd_105_loops;
 
 /*
     Napisz metodę, która policzy n-tą potęgę (n >= 0) liczby całkowitej a.

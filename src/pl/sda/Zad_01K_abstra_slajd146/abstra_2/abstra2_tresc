@@ -1,0 +1,3 @@
+2. Utwórz dwie nowe klasy abstrakcyjne: Meat i Vegetable rozszerzające klasę Food.
+   Zmień klasy bazowe dla klas: Chicken, Ham, Carrot, Salad tak,
+   by dziedziczyły po jednej z klas: Meat lub Vegetable.

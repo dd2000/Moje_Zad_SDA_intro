@@ -1,4 +1,4 @@
-package pl.sda.Zad_01G_loops_slajd_106.Zad_7_slajd_105_loops_DialogBoxPane;
+package pl.sda.Zad_01G_loops_slajd_106_DialogBoxPane.Zad_7_slajd_105_loops_DialogBoxPane;
 
 import javax.swing.*;
 

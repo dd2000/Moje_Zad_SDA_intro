@@ -1,4 +1,4 @@
-package pl.sda.Zad_01G_loops_slajd_106.Zad_1_slajd_105_loops;
+package pl.sda.Zad_01G_loops_slajd_106_DialogBoxPane.Zad_1_slajd_105_loops;
 
 /*
 Napisz metodę, która wyświetli na ekranie n-pierwszych liczb parzystych.

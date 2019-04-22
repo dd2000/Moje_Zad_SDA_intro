@@ -1,4 +1,4 @@
-package pl.sda.Zad_01G_loops_slajd_106.Zad_5_slajd_105_loops;
+package pl.sda.Zad_01G_loops_slajd_106_DialogBoxPane.Zad_5_slajd_105_loops;
 /*
 5. Napisz metodę sprawdzającą ilość wystąpień frazy: phrase w tekście: text.
    Parametry metody to: phrase i text.

@@ -1,0 +1,22 @@
+1. Utwórz klasę abstrakcyjną o nazwie Food i dodaj do niej metodę abstrakcyjną getTaste(),
+   która zwraca String z opisem smaku jedzenia Dodaj klasy: Chicken, Ham, Carrot, Salad
+   rozszerzające klasę Food oraz zaimplementuj w każdej z nich wymaganą metodę.
+2. Utwórz dwie nowe klasy abstrakcyjne: Meat i Vegetable rozszerzające klasę Food.
+   Zmień klasy bazowe dla klas: Chicken, Ham, Carrot, Salad tak,
+    by dziedziczyły po jednej z klas: Meat lub Vegetable.
+3. Dodaj do klasy Food metodę abstrakcyjną getType(),
+   która zwróci rodzaj jedzenia w postaci enuma (utwórz enum).
+   W klasach Meat i Vegetable zaimplementuj nową metodę.
+4. W klasie Food dodaj pole name i zwykłą metodę (gettera) do pobierania nazwy.
+   Stwórz konstruktor, który będzie ustawiał pole name.
+   Stwórz odpowiednie konstruktory w klasach pochodnych.
+5. W klasie Food dodaj metodę describe(), która wypisze na ekran informacje o nazwie, typie i smaku jedzenia.
+   Sprawdź swój kod, stwórz po jednym obiekcie z każdej klasy: Chicken, Ham, Carrot, Salad
+   i wyświetl na ekran ich opis.
+6. (*) Stwórz klasę Recipe, która zawierać będzie nazwę i spis składników (obiektów klasy Food).
+   Dodaj konstruktor który ustawi nazwę przepisu i wszystkie składniki(jako varargs)
+   i drugi który ustawi nazwę przepisu i ilość składników (jako liczbę).
+   Dodaj metodę do dodawania składników do listy.
+7. (*) W klasie Recipe stwórz metody do wyświetlania wszystkich składników (same nazwy)
+   oraz metodę do wyświetlania opisu potrawy składającego się z opisu poszczególnych składników.
+8. (*) Dodaj własne klasy-składniki tak by stworzyć swój ulubiony przepis kulinarny :).

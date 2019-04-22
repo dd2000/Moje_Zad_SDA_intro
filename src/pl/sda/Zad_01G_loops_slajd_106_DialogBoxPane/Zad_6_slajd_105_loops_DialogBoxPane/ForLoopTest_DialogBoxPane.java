@@ -1,4 +1,4 @@
-package pl.sda.Zad_01G_loops_slajd_106.Zad_6_slajd_105_loops_DialogBoxPane;
+package pl.sda.Zad_01G_loops_slajd_106_DialogBoxPane.Zad_6_slajd_105_loops_DialogBoxPane;
 /*
 6. Zmień metodę pl.sda.loops.ForLoop.sumNumbersFromUser() tak,
    by przyjmowała liczby typu float.

@@ -1,4 +1,4 @@
-package pl.sda.Zad_01G_loops_slajd_106.Zad_4_slajd_105_loops;
+package pl.sda.Zad_01G_loops_slajd_106_DialogBoxPane.Zad_4_slajd_105_loops;
 
 /*
     Napisz metodę która sprawdzi czy dwa podane Stringi (zmienne typu String) są takie same
